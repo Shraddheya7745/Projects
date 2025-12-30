@@ -1,79 +1,152 @@
-Healthcare Data Security and Privacy
-==================================
+HEALTHCARE DATA SECURITY & PRIVACY
+=================================
 
-Overview
---------
-This project presents a comprehensive study on healthcare data security and privacy, focusing on 
-modern cyber threats, regulatory frameworks, and practical mitigation strategies in the healthcare 
-industry. The work combines theoretical analysis, real-world case studies, and survey-based findings 
-to highlight existing gaps and propose actionable security improvements.
+🏥 Project Overview
+-------------------
+This project investigates the security and privacy challenges faced by modern healthcare
+systems as patient data becomes increasingly digitized. It evaluates cyber threats,
+regulatory frameworks, and real-world practices to identify gaps between policy, awareness,
+and implementation.
 
-The research emphasizes the growing risks to sensitive patient data due to increased digitization, 
-IoT adoption, insider threats, phishing, and ransomware attacks, while also examining compliance 
-requirements such as HIPAA, GDPR, and India’s DPDP Act 2023.
+The study combines regulatory analysis, survey-based research, and case studies to assess
+how healthcare organizations protect sensitive patient information.
 
-Objectives
-----------
-- Analyze current healthcare data security and privacy challenges
-- Study the impact of cyberattacks and data breaches in healthcare systems
-- Evaluate regulatory frameworks governing healthcare data protection
-- Understand real-world practices through survey findings
-- Propose practical mitigation strategies and security best practices
+------------------------------------------------------------
 
-Key Topics Covered
-------------------
-- Healthcare data security fundamentals
-- Data privacy and patient consent
-- Phishing, ransomware, insider threats, and IoT vulnerabilities
-- Regulatory compliance (HIPAA, HITECH Act, GDPR, DPDP 2023)
-- Authentication and authorization mechanisms
-- Encryption and data protection strategies
-- Impact analysis of healthcare data breaches
-- Survey-based insights from healthcare professionals
-- Case studies from the Indian healthcare sector
+🎯 Objectives
+-------------
+✔ Understand healthcare data security risks
+✔ Analyze real-world breach impacts
+✔ Evaluate regulatory compliance (HIPAA, GDPR, DPDP)
+✔ Assess awareness among healthcare professionals
+✔ Propose actionable mitigation strategies
 
-Methodology
------------
-- Literature review of healthcare security standards and regulations
-- Analysis of recent healthcare cyber incidents and breaches
-- Survey conducted among healthcare professionals to assess awareness 
-  and real-world security practices
-- Evaluation of emerging technologies such as blockchain and AI 
-  for healthcare data protection
+------------------------------------------------------------
 
-Findings
---------
-- Low awareness of healthcare data security laws among professionals
-- Lack of formal security training in many healthcare institutions
-- Weak access control and credential management practices
-- Inconsistent use of encryption for data at rest and in transit
-- Minimal incident response preparedness in case of data breaches
+📂 Types of Healthcare Data at Risk
+----------------------------------
 
-Proposed Mitigations
---------------------
-- Regular security awareness and training programs
-- Strong encryption for data storage and transmission
-- Multi-factor authentication and role-based access control
-- Regular password rotation and credential management
-- Dedicated IT security teams within healthcare institutions
-- Periodic security audits and compliance checks
-- Improved patient consent transparency and education
+Electronic Health Records (EHR)   ███████████████░░  85%
+Personal Identifiers (PII)        ██████████████░░░  80%
+Medical Reports & Imaging         ███████████░░░░░  70%
+Insurance & Billing Data          █████████░░░░░░░  60%
+IoT / Medical Device Data         ████████░░░░░░░░  50%
 
-Project Type
-------------
-Academic Research / Cybersecurity / Healthcare Data Privacy
+------------------------------------------------------------
 
-Authors
--------
-- Shraddheya Vinod Tarekar
-- Ashish Goyal
-- Prassana Kumar
+⚠ Major Threat Landscape
+------------------------
 
-Institution
------------
-Case Western Reserve University
+Phishing Attacks        █████████████████░░░  HIGH
+Ransomware              ███████████████░░░░  HIGH
+Insider Threats         ██████████████░░░░░  HIGH
+IoT Vulnerabilities     █████████░░░░░░░░░  MODERATE
+Weak Access Controls    ███████████░░░░░░░  MODERATE
 
-Disclaimer
-----------
-This project is for educational and research purposes only. 
-No real patient data was accessed, stored, or processed.
+------------------------------------------------------------
+
+🥧 Regulatory Awareness (Survey Results)
+----------------------------------------
+
+Aware of Regulations        ●●●●●                10%
+Somewhat Aware              ●●●●●●●              15%
+Not Aware                   ●●●●●●●●●●●●●●      75%
+
+(● = Approximate proportion)
+
+------------------------------------------------------------
+
+📊 Security Practices Observed
+------------------------------
+
+Encryption in Use            █████████░░░░░░░  55%
+Regular Password Rotation    ███████░░░░░░░░░  40%
+Multi-Factor Authentication  ██████░░░░░░░░░░  35%
+Incident Response Plan       █████░░░░░░░░░░░  25%
+Regular Security Audits      ████░░░░░░░░░░░░  20%
+
+------------------------------------------------------------
+
+🚨 Impact of Data Breaches
+-------------------------
+
+Patient Privacy Violation    █████████████████░░░  SEVERE
+Financial Loss               ███████████████░░░░  HIGH
+Reputational Damage          █████████████████░░░  SEVERE
+Legal / Regulatory Penalties ███████████░░░░░░░  HIGH
+Operational Disruption       █████████░░░░░░░░░  MODERATE
+
+------------------------------------------------------------
+
+🇮🇳 Healthcare Cybersecurity – India Focus
+-----------------------------------------
+
+Healthcare Orgs Attacked        ███████████████░░░  ~60%
+Hospitals Without IT Security   █████████████░░░░  ~55%
+Data Stored in Registers        █████████░░░░░░░░  ~45%
+No Formal Security Training     ████████████████░░  ~65%
+
+------------------------------------------------------------
+
+🧠 Survey Findings (Key Issues)
+-------------------------------
+• Majority of healthcare workers unaware of data protection laws
+• No formal cybersecurity training in many hospitals
+• Credentials shared among staff
+• Data transmitted via messaging apps (e.g., WhatsApp)
+• No defined incident response procedures
+• Patients unaware of how their data is used
+
+------------------------------------------------------------
+
+🔐 Authorization & Authentication Gaps
+--------------------------------------
+
+Role-Based Access Control    ███████░░░░░░░░░░  LIMITED
+Biometric Authentication    ██████░░░░░░░░░░░  LOW
+Facial Recognition          █████░░░░░░░░░░░░  VERY LOW
+Token-Based Access          ██████░░░░░░░░░░░  LOW
+
+------------------------------------------------------------
+
+🛠 Proposed Mitigations
+----------------------
+
+✔ Mandatory security awareness training
+✔ Strong encryption (data at rest & in transit)
+✔ Multi-factor authentication
+✔ Role-based access control (RBAC)
+✔ Regular password expiry (60–90 days)
+✔ Dedicated IT security teams in hospitals
+✔ Regular audits & compliance checks
+✔ Improved patient consent transparency
+
+------------------------------------------------------------
+
+📈 Outcomes & Learnings
+----------------------
+✔ Identified systemic security awareness gaps
+✔ Highlighted mismatch between policy & practice
+✔ Reinforced importance of training & audits
+✔ Demonstrated need for stronger regulatory enforcement
+✔ Provided practical, scalable mitigation strategies
+
+------------------------------------------------------------
+
+👥 Project Team
+---------------
+• Shraddheya Vinod Tarekar
+• Ashish Goyal
+• Prassana Kumar
+
+------------------------------------------------------------
+
+📌 Project Type
+--------------
+Cybersecurity | Healthcare Security | Privacy & Compliance | Risk Analysis
+
+📌 Disclaimer
+-------------
+This project is for academic and research purposes only.
+No real patient data was accessed or exposed.
+
