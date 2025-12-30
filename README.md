@@ -22,7 +22,7 @@ Achieved up to **50% faster** processing through optimization.
 ### 🔐 Healthcare Data Security & Privacy  
 A comprehensive cybersecurity research project analyzing how healthcare organizations handle sensitive patient data.  
 Focused on data breaches, regulatory compliance (HIPAA, GDPR, DPDP 2023), security awareness, and real-world gaps using surveys and case studies.  
-🔗 [Healthcare Data Security and Privacy](./Healthcare%20Data%20Security%20and%20Privacy)
+🔗 [Healthcare Data Security and Privacy](./Healthcare%20Data%20Security%20&%20Privacy)
 
 ---
 
