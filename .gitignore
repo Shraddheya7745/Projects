@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+._*
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+*.iml
